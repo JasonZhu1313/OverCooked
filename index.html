@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My New Pen!</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  
+  <!--
+
+    Wow! What do you want to build?
+
+    You have so many possibilities right now... Looking for something to kick off?
+    How about a simple folio page to show off everything you're going to make!
+   
+  -->
+  <div class="gameboardcontainer">
+   
+  </div>
+  <!-- Scripts -->
+  <script type="text/javascript">
+  window.onload = function(){
+    //gameBoard.refreshBoard(15);
+    var playerList = gameController.initGame(false,1);
+   gameController.playGame(playerList);
+  }; 
+</script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
